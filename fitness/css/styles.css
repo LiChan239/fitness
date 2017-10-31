@@ -1,4 +1,4 @@
-/* Style sheet created by Li on 10/19/17 */
+/* Style sheet created by Li Chan on 10/19/17 */
 
 /* Style for body specifies a background color */
 body {
@@ -135,10 +135,43 @@ form ul {
 	display: inline-block;
 }
 
+/* Style rule for the video class */
+.video {
+	padding: 1em;
+	text-align: center;
+}
+	
+/* Style rule for the video element */
+video {
+	border: 0.5em ridge #FFFFFF;
+	height: auto;
+	max-width: 100%;
+}
+
+/* Style rule for the copyright div */
+#copyright {
+	float: left;
+	margin-top: 2em;
+	width: 80%;
+}
+
+/* Style rule for the social div */
+#social {
+	float: right;
+	width: 20%;
+}
+
+/* Style rule for social media icons */
+#social img {
+	padding: 0.5em;
+}
+
 /* Media query for tablet viewport targets screen size with a minimum width of 660px */
 /* ----------------------------------------------------------------------------------*/
 
 @media only screen and  (min-width: 660px) {
+	
+	
 	
 	/* Style specifies a horizontal display for navigation lists */
 	
@@ -433,6 +466,7 @@ form ul {
 		background-color: #2A2A2A;
 		margin-top: -0.2em;
 		padding: 2em;
+		overflow: auto;
 	}
 	
 	/* Style specifies color and left margin for the section element */
